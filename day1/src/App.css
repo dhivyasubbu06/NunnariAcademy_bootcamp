@@ -1,0 +1,85 @@
+/* Full screen center */
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+/* White box */
+.box {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+.box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.box button:hover {
+  background: #5a67d8;
+}
+
+/* Card */
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+}
+
+/* Status */
+.status {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+/* dropdown */
+.box select {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+/* status colors */
+.status {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.status.active {
+  color: green;
+}
+
+.status.completed {
+  color: blue;
+}
+
+.status.inactive {
+  color: red;
+}
