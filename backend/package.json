@@ -8,10 +8,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "<img width=\"758\" height=\"372\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4d6f8964-cf2b-463d-931f-612bfdcd9ab6\" />",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.4.1"
   }
 }
